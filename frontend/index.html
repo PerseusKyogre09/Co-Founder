@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co-Founder AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Co-Founder AI</h1>
+
+    <div class="container">
+        <input type="text" id="ideaInput" placeholder="Enter your startup idea...">
+        <button onclick="validateIdea()">Validate Idea</button>
+        <p id="validationResult"></p>
+
+        <button onclick="getAdvice()">Get Startup Advice</button>
+        <ul id="adviceList"></ul>
+
+        <h2>Stored Startup Ideas</h2>
+        <button onclick="fetchIdeas()">Show Saved Ideas</button>
+        <ul id="ideasList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
